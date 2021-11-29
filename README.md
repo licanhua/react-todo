@@ -1,7 +1,12 @@
-# Getting Started with react-todo
-A todo project with `react` + `typescript` + `redux-saga` + `react-bootstrap`
+# Build a React To-do List App
+A react project pratice with `react` + `typescript` + `redux-saga` + `react-bootstrap`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![todo app](./todo.gif)
+
+
+## Youtube
+
+[![Youtube](https://img.youtube.com/vi/bKM_CP46eXE/0.jpg)](https://www.youtube.com/watch?v=bKM_CP46eXE)
 
 ## Available Scripts
 
