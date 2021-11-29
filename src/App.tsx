@@ -1,25 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { ToDoFilter } from "container/ToDoFilter";
+import { ToDoAdd } from "container/ToDoAdd";
+import { ToDoList } from "container/ToDoList";
+import { loadToDos } from "slices/todos";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadToDos());
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row>
+        <Col lg="2" xl="3" />
+        <Col className="bg-info">
+          <Container className="m-2">
+            <h1 className="text-center">ToDo App</h1>
+            <ToDoAdd />
+            <ToDoFilter />
+            <ToDoList />
+          </Container>
+        </Col>
+        <Col lg="2" xl="3" />
+      </Row>
+    </Container>
   );
 }
 

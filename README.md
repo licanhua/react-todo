@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Getting Started with react-todo
+A todo project with `react` + `typescript` + `redux-saga` + `react-bootstrap`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
