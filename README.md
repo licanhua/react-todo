@@ -3,8 +3,10 @@ A react project pratice with `react` + `typescript` + `redux-saga` + `react-boot
 
 ![todo app](./todo.gif)
 
+## Step by step guide
+TBD
 
-## Youtube
+## Youtube demo
 
 [![Youtube](https://img.youtube.com/vi/bKM_CP46eXE/0.jpg)](https://www.youtube.com/watch?v=bKM_CP46eXE)
 
