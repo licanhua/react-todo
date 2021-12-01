@@ -6,6 +6,8 @@ A react project pratice with `react` + `typescript` + `redux-saga` + `react-boot
 ## Guide
 [Tips to build a Todo app with react, redux-saga, typescript and react-bootstrap — 1](https://licanhua.medium.com/tips-to-build-a-todo-app-with-react-redux-saga-typescript-and-react-bootstrap-1-468058add83c?sk=f981bdeeee489268db8e93e5083e7daf)
 
+## Demo site
+https://licanhua.github.io/react-todo/
 
 ## Youtube demo
 
